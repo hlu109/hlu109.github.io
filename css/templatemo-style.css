@@ -15,6 +15,10 @@ ul {
     padding-left: 25px;
   }
 
+a, a:visited, a:hover {
+    color: #eee;
+}
+
 /* start all section */
 #home,
 #home .fp-slide,
@@ -42,7 +46,6 @@ footer .fp-tableCell
 {
     height: auto !important;
 }
-
 /* end all section */
 
 /* start all heading */
@@ -55,7 +58,7 @@ h1,h2,h3,h4,h5 {
 /* start all section */
 #work, #about, #portfolio, #contact {
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 /* end all section */
 
@@ -167,13 +170,10 @@ h1,h2,h3,h4,h5 {
 /* end simpletextrotator */
 
 /* start header */
-header {
+/* header {
     background: url('../images/poppies.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 14px;
-    padding-bottom: 18px; */
-    /* text-align: center; */
 }
 header h1{
     border: 2px solid #ffbf52;
@@ -183,11 +183,12 @@ header h1{
     padding: 10px 15px;
     margin: 10px 0;
     background: #2a254337;
-}
+} */
 
 /* start home */       
 #home {
     background: url('../images/poppies.jpeg');
+    /* background: url('../images/aliciatsai-edit4.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -225,20 +226,19 @@ header h1{
 /* end home */
 
 /* start work */
-#work {
+/* #work {
     background: #1a1a1a;
 }
 #work h2 {
     text-align: center;
-}
-#about .media {
+} */
+/* #work .media {
     margin-top: 0px;
 }
-#about .media .media-heading {
+#work .media .media-heading {
     font-weight: 600;
     font-size: 20px;
-    /* padding-bottom: 10px; */
-}
+} */
 /* end work */
 
 /* start about */
@@ -349,23 +349,20 @@ header h1{
     text-align: left;
     /* top: 200px; */
 }
-#portfolio a.readmore, a.readmore:visited {
+/* #portfolio a.readmore, a.readmore:visited {
     color: #aaa;
 }
 #portfolio a.readmore:hover {
     color: #eee;
-}
-#portfolio a.intext, a.intext:visited {
-    color: #eee;
-}
-#portfolio a.intext:hover {
-    color: #eee;
-}
+} */
 /* end portfolio */
 
 /* start contact */
 #contact {
     text-align: center;
+    /* background-color: #2d2839; */
+    /* padding-top: 0px; */
+    padding-bottom: 10px;
 }
 #contact .contact-title {
     padding-bottom: 20px;
@@ -427,26 +424,21 @@ margin: 0;
 }
 /* end contact */
 
-/* start project */
-/* #home body 
-{
-
-} */
-
 /* start footer */
 footer {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #999;
+    /* background-color: #2d2839; */
 }
 footer hr {
     width: 100px;
 }
 
-footer a, a:visited {
+footer a, footer a:visited {
     color: #bbb;
 }
 
-footer a:hover, a:active, a:focus {
+footer a:hover, footer a:active, footer a:focus {
     color: #fff;
 }

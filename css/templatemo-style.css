@@ -349,6 +349,7 @@ header h1{
 } */
 #portfolio .project-title {
     padding-left: 12px;
+    padding-right: 12px;
     padding-top: 12px;
     color: #76c0d0;
     font-family: 'Raleway', sans-serif;

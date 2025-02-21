@@ -212,10 +212,10 @@ header h1{
 }
 
 #home h1 {
-    border: 3px solid #ffbf52;
+    border: 2px solid #ffbf52;
     color: #ffbf52;
     display: inline-block;
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 3px;
     padding: 25px 35px;
     margin: 30px 0;
